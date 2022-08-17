@@ -28,9 +28,21 @@ body
   	white-space: nowrap;
 }
 
+.center
+{
+  margin: 10px auto 10px;
+  display: block;
+}
+
 .center-text
 {
 	text-align: center;
+}
+
+.container
+{
+	position: relative;
+	margin-bottom: -10px;
 }
 
 .header
@@ -58,6 +70,14 @@ body
 {
 	padding-left: 10px;
 	padding-top: 5px;
+}
+
+.score
+{
+	position: absolute;
+	top: 88%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 .score-circle
