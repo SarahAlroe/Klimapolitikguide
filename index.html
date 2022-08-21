@@ -30,34 +30,34 @@
 
   			<div id="party-1-stats" class="party-stats-frame">
   				<div class="offset-by-one two columns">
-  					<div class="score-circle score-4">
-  						<h4 class="center-text score-circle-text">4/4</h4>
+  					<div class="container">
+  						<img src="images/landbrug_4.png" class="category-icon center">
   					</div>
-  					<button onclick="showTopicDetails('party-1-stats','party-1-agriculture')" class="button button-primary category-button" style="width: 100%">Landbrug</button>
+  					<a onclick="showTopicDetails('party-1-stats','party-1-agriculture')" class="button button-primary category-button" href="#party-1">Landbrug</a>
 	  			</div>
 	  			<div class="two columns">
-	  				<div class="score-circle score-3">
-	  					<h4 class="center-text score-circle-text">3/4</h4>
-	  				</div>
-	  				<button onclick="showTopicDetails('party-1-stats','party-1-infrastructure')" class="button button-primary category-button" style="width: 100%" href="#">Infrastruktur</button>
+	  				<div class="container">
+  						<img src="images/infrastruktur_4.png" class="category-icon center">
+  					</div>
+  					<a onclick="showTopicDetails('party-1-stats','party-1-infrastructure')" class="button button-primary category-button" href="#party-1">Infrastruktur</a>
 	  			</div>
 	  			<div class="two columns">
-	  				<div class="score-circle score-2">
-	  					<h4 class="center-text score-circle-text">2/4</h4>
-	  				</div>
-	  				<button onclick="showTopicDetails('party-1-stats','party-1-energy')" class="button button-primary category-button" style="width: 100%" href="#">Energiforsyning</button>
+	  				<div class="container">
+  						<img src="images/energiforsyning_3.png" class="category-icon center">
+  					</div>
+	  				<a onclick="showTopicDetails('party-1-stats','party-1-energy')" class="button button-primary category-button" href="#party-1">Energiforsyning</a>
 	  			</div>
 	  			<div class="two columns">
-	  				<div class="score-circle score-1">
-	  					<h4 class="center-text score-circle-text">1/4</h4>
-	  				</div>
-	  				<button class="button button-primary category-button" style="width: 100%" href="#">CO2-afgift</button>
+	  				<div class="container">
+  						<img src="images/CO2afgift_4.png" class="category-icon center">
+  					</div>
+	  				<a onclick="showTopicDetails('party-1-stats','party-1-CO2-tax')" class="button button-primary category-button" href="#party-1">CO2-afgift</a>
 	  			</div>
 	  			<div class="two columns">
-	  				<div class="score-circle score-0">
-	  					<h4 class="center-text score-circle-text">0/4</h4>
-	  				</div>
-	  				<button class="button button-primary category-button" style="width: 100%" href="#">Andet</button>
+	  				<div class="container">
+  						<img src="images/andet_4.png" class="category-icon center">
+  					</div>
+	  				<a onclick="showTopicDetails('party-1-stats','party-1-other')" class="button button-primary category-button" href="#party-1">Andet</a>
 	  			</div>
   			</div>
 
@@ -79,6 +79,18 @@
   				</div>
   				<p class="topic-text">Tekst om partiets energipolitik.</p>
   			</div>
+  			<div id="party-1-CO2-tax" class="twelve columns topic-frame hidden">
+  				<div class="row back-button-frame">
+  					<button onclick="returnToPartyStats('party-1-stats','party-1-CO2-tax')" class="back-button">X</button><br>
+  				</div>
+  				<p class="topic-text">Tekst om partiets holdning til CO2-afgift.</p>
+  			</div>
+  			<div id="party-1-other" class="twelve columns topic-frame hidden">
+  				<div class="row back-button-frame">
+  					<button onclick="returnToPartyStats('party-1-stats','party-1-other')" class="back-button">X</button><br>
+  				</div>
+  				<p class="topic-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+  			</div>
 
   		</div>
   	</div>
@@ -86,61 +98,73 @@
 
   	<div class="row">
   		<div class="offset-by-one ten columns party">
-  			<h2 class="party-name">2. Partinavn</h2>
-  			<div class="offset-by-one two columns">
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Landbrug</a>
-  			</div>
-  			<div class="two columns">
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Infrastruktur</a>
-  			</div>
-  			<div class="two columns">
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Energiforsyning</a>
-  			</div>
-  			<div class="two columns">
-  				<a class="button button-primary category-button" style="width: 100%" href="#">CO2-afgift</a>
-  			</div>
-  			<div class="two columns">
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Andet</a>
-  			</div>
-  		</div>
-  	</div>
-  	<br>
-
-  	<div class="row">
-  		<div class="offset-by-one ten columns party">
-  			<h2 class="party-name">3. Partinavn</h2>
+  			<h2 id="party-2" class="party-name">2. Partinavn</h2>
   			<div class="offset-by-one two columns">
   				<div class="container">
-  					<img src="landbrugssymbol.png" class="center" style="max-width:100%">
-  					<div class="score">
-  						<h4 class="center-text score-circle-text">0/4</h4>
-  					</div>
+  					<img src="images/landbrug_1.png" class="category-icon center">
   				</div>
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Landbrug</a>
+  				<a class="button button-primary category-button" href="#party-2">Landbrug</a>
   			</div>
   			<div class="two columns">
-  				<div class="score-circle score-0">
-  					<h4 class="center-text score-circle-text">0/4</h4>
+  				<div class="container">
+  					<img src="images/infrastruktur_2.png" class="category-icon center">
   				</div>
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Infrastruktur</a>
+  				<a class="button button-primary category-button" href="#party-2">Infrastruktur</a>
   			</div>
   			<div class="two columns">
-  				<div class="score-circle score-0">
-  					<h4 class="center-text score-circle-text">0/4</h4>
+  				<div class="container">
+  					<img src="images/energiforsyning_2.png" class="category-icon center">
   				</div>
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Energiforsyning</a>
+  				<a class="button button-primary category-button" href="#party-2">Energiforsyning</a>
   			</div>
   			<div class="two columns">
-  				<div class="score-circle score-0">
-  					<h4 class="center-text score-circle-text">0/4</h4>
+  				<div class="container">
+  					<img src="images/CO2afgift_3.png" class="category-icon center">
   				</div>
-  				<a class="button button-primary category-button" style="width: 100%" href="#">CO2-afgift</a>
+  				<a class="button button-primary category-button" href="#party-2">CO2-afgift</a>
   			</div>
   			<div class="two columns">
-  				<div class="score-circle score-0">
-  					<h4 class="center-text score-circle-text">0/4</h4>
+  				<div class="container">
+  					<img src="images/andet_2.png" class="category-icon center">
   				</div>
-  				<a class="button button-primary category-button" style="width: 100%" href="#">Andet</a>
+  				<a class="button button-primary category-button" href="#party-2">Andet</a>
+  			</div>
+  		</div>
+  	</div>
+  	<br>
+
+  	<div class="row">
+  		<div class="offset-by-one ten columns party">
+  			<h2 id="party-3" class="party-name">3. Partinavn</h2>
+  			<div class="offset-by-one two columns">
+  				<div class="container">
+  					<img src="images/landbrug_0.png" class="category-icon center">
+  				</div>
+  				<a class="button button-primary category-button" href="#party-3">Landbrug</a>
+  			</div>
+  			<div class="two columns">
+  				<div class="container">
+  					<img src="images/infrastruktur_1.png" class="category-icon center">
+  				</div>
+  				<a class="button button-primary category-button" href="#party-3">Infrastruktur</a>
+  			</div>
+  			<div class="two columns">
+  				<div class="container">
+  					<img src="images/energiforsyning_0.png" class="category-icon center">
+  				</div>
+  				<a class="button button-primary category-button" href="#party-3">Energiforsyning</a>
+  			</div>
+  			<div class="two columns">
+  				<div class="container">
+  					<img src="images/CO2afgift_0.png" class="category-icon center">
+  				</div>
+  				<a class="button button-primary category-button" href="#party-3">CO2-afgift</a>
+  			</div>
+  			<div class="two columns">
+  				<div class="container">
+  					<img src="images/andet_0.png" class="category-icon center">
+  				</div>
+  				<a class="button button-primary category-button" href="#party-3">Andet</a>
   			</div>
   		</div>
   	</div>
