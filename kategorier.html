@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="da">
+<head >
+	<title>Om kategorierne</title>
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+<body>
+	<div class="header">
+		<div class="row">
+			<div class="offset-by-one two columns">
+				<a class="center button button-secondary header-button" href="index.html">Tilbage</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+    	<div class="offset-by-three six columns center-text title-box">
+    		<h1>Om kategorierne</h1>
+    	</div>
+  	</div>
+
+	<div class="row">
+		<div class="offset-by-three six columns">
+			<p class="white-text topic-text">
+				På denne side vurderes partiernes klimapolitik inden for de fire kategorier landbrug, transport, energiforsyning og CO2-afgift. I hver kategori tildeles mellem 0 og 4 point. 4 point gives for en exceptionel klimavenlig indsats, mens 0 point gives for totalt fravær af klimavenlige tiltag. Herunder kan du læse mere om hver enkelt kategori, og hvad der lægges vægt på i rangeringen.<br><br>
+				Generelt er det tilstræbt at bedømme partierne ud fra såvel lovet politik som ført politik. Da flere af de opstillede partier ikke har siddet i Folketinget før, kunne denne betingelse desværre ikke altid opfyldes.
+			</p>
+		</div>
+	</div>
+
+	<!-- landbrug -->
+
+	<div class="row">
+  		<div class="offset-by-three six columns party">
+			<div id="party-1-stats" class="party-stats-frame">
+				<div class="offset-by-three six columns">
+					<div class="container">
+						<img src="images/landbrug_0.png" class="category-icon center">
+					</div>
+					<a onclick="showTopicDetails('party-1-stats','party-1-agriculture')" class="button button-primary category-button" href="#party-1">Landbrug</a>
+				</div>
+		  	</div>
+		  	<div id="party-1-agriculture" class="twelve columns topic-frame hidden">
+				<div class="center topic-text-frame">
+					<div class="row back-button-frame">
+						<button onclick="returnToPartyStats('party-1-stats','party-1-agriculture')" class="back-button">X</button><br>
+					</div>
+					<h4 class="center-text">Landbrug</h4>
+					<p class="topic-text" style="margin-bottom: 0">
+						<em>For at mindske kulstofudfordringen bør et ensidigt fokus på negative udledninger undgås. Som
+						konsekvens bør Danmark stræbe efter at reducere de tilbageværende udledninger i betydelig grad. Det
+						gælder særligt i landbruget, som tegner til at blive den største kilde til udledninger i 2050.</em>
+					</p>
+					<p class="topic-text" style="text-align: right">
+						<a href="https://klimaraadet.dk/da/rapporter/statusrapport-2022" target="_blank">- Klimarådets statusrapport for 2022</a>
+					</p>
+
+					<p class="topic-text">
+						Animalsk produktion står for langt størstedelen af de landbrugsrelaterede udledninger. Partiernes holdning til at reducere den danske husdyrbestand og fremme plantebaseret produktion har derfor haft stor betydning for vurderingen af deres landbrugspolitik.<br><br> 
+
+						Et ofte brugt argument imod at reducere den danske husdyrbestand er faren for lækage, dvs. at den reducerede udledning i Danmark opvejes af stigende udledninger i udlandet. De Økonomiske Råd estimerer dog, at <a target="_blank" href="https://dors.dk/oevrige-publikationer/kronikker-artikler/klimalaekage-dansk-landbrug">kun 35% af de danske reduktioner i landbruget vil blive opvejet af udenlandske stigninger</a>. Lækageraten afhænger i høj grad af vores eksportmarkeders klimapolitik. Jo mere klimavenlige vores handelspartnere bliver, jo mere batter den danske indsats også.<br><br> 
+
+						I 2021 blev der indgået en bred klimaaftale for landbruget mellem alle folketingets partier på nær Alternativet (som fandt den for uambitiøs). Eftersom ingen partier fandt at aftalen var <em>for</em> ambitiøs, kan aftalen betragtes som et bundniveau, alle kunne enes om, og det har derfor ikke givet nogen point i rangeringen at være med i aftalen. Selvom aftalen indeholder positive elementer (blandt andet om at tage 100.000 ha lavbundsjorde ud af drift), har den også 
+						<a href="https://nyheder.tv2.dk/2021-10-04-alt-for-faa-konkrete-reduktioner-i-landbrugsaftalen-lyder-kritikken" target="_blank">modtaget kritik for at anvise for få konkrete virkemidler</a> til at opnå de lovede reduktioner.<br><br> 
+
+						Anvisning af konkrete tiltag, der rækker ud over landbrugsaftalen, vægtes positivt. Her er der stor forskel på partierne. Nogle har fremlagt detaljerede udspil om reduktion af landbrugets klimabelastning. Andre nøjes med at beskrive, hvor godt det danske landbrug allerede er, og enkelte undlader helt at koble landbrug og klima.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<!-- transport -->
+
+	<div class="row">
+  		<div class="offset-by-three six columns party">
+		  	<div id="party-1-stats" class="party-stats-frame">
+				<div class="offset-by-three six columns">
+					<div class="container">
+						<img src="images/infrastruktur_4.png" class="category-icon center">
+					</div>
+					<a onclick="showTopicDetails('party-1-stats','party-1-infrastructure')" class="button button-primary category-button" href="#party-1">Infrastruktur</a>
+				</div>
+		  	</div>
+		</div>
+	</div>
+	<br>
+
+  	<!-- energiforsyning -->
+
+  	<div class="row">
+  		<div class="offset-by-three six columns party">
+		  	<div id="party-1-stats" class="party-stats-frame">
+				<div class="offset-by-three six columns">
+					<div class="container">
+						<img src="images/energiforsyning_3.png" class="category-icon center">
+					</div>
+					<a onclick="showTopicDetails('party-1-stats','party-1-energy')" class="button button-primary category-button" href="#party-1">Energiforsyning</a>
+				</div>
+		  	</div>
+		</div>
+	</div>
+	<br>
+
+  	<!-- C02-afgift -->
+
+  	<div class="row">
+  		<div class="offset-by-three six columns party">
+		  	<div id="party-1-stats" class="party-stats-frame">
+				<div class="offset-by-three six columns">
+					<div class="container">
+						<img src="images/CO2afgift_4.png" class="category-icon center">
+					</div>
+					<a onclick="showTopicDetails('party-1-stats','party-1-CO2-tax')" class="button button-primary category-button" href="#party-1">CO2-afgift</a>
+				</div>
+		  	</div>
+		</div>
+	</div>
+	<br>
+
+	<div id="party-1-infrastructure" class="twelve columns topic-frame hidden">
+		<div class="center topic-text-frame">
+			<div class="row back-button-frame">
+				<button onclick="returnToPartyStats('party-1-stats','party-1-infrastructure')" class="back-button">X</button><br>
+			</div>
+			<h4 class="center-text">Infrastruktur</h4>
+			<p class="topic-text">Tekst om partiets infrastrukturpolitik.</p>
+		</div>
+	</div>
+	<div id="party-1-energy" class="twelve columns topic-frame hidden">
+		<div class="center topic-text-frame">
+			<div class="row back-button-frame">
+				<button onclick="returnToPartyStats('party-1-stats','party-1-energy')" class="back-button">X</button><br>
+			</div>
+			<h4 class="center-text">Energiforsyning</h4>
+			<p class="topic-text">Tekst om partiets energipolitik.</p>
+		</div>
+	</div>
+	<div id="party-1-CO2-tax" class="twelve columns topic-frame hidden">
+		<div class="center topic-text-frame">
+			<div class="row back-button-frame">
+				<button onclick="returnToPartyStats('party-1-stats','party-1-CO2-tax')" class="back-button">X</button><br>
+			</div>
+			<h4 class="center-text">CO<sub>2</sub>-afgift</h4>
+			<p class="topic-text">Tekst om partiets holdning til CO2-afgift.</p>
+		</div>
+  	</div>
+
+  	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
