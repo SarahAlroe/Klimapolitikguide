@@ -82,6 +82,17 @@ body
 	display: none;
 }
 
+.intro-box
+{
+	background-color: #063936;
+	color: white;
+	/*font-variant: small-caps;*/
+	font-size: 1.9rem;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 20px 20px 0 20px;
+}
+
 .party
 {
 	background-color: #D3F3E0;
